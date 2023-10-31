@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import './Styles.css';
 
-Modal.setAppElement('#root'); // Establece el elemento raíz de la aplicación
+Modal.setAppElement('#root');
 
 const customStyles = {
   content: {
@@ -43,7 +43,7 @@ function App() {
     });
 
     const loadedConversionHistory = [
-      // Supongamos que aquí tienes algunas conversiones preexistentes
+    
     ];
 
     setConversionHistory(loadedConversionHistory);
